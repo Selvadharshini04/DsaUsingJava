@@ -1,0 +1,4 @@
+1.Delete the head of the linkedlist
+2.Delete the tail of the linkedlist
+3.Delete the node in given position
+4.Delete a value
