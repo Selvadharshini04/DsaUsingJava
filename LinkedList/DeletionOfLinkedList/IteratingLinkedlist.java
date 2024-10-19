@@ -1,6 +1,8 @@
 /*----------------------------------------Deletion in linked list-----------------------------------------------------------
  * 1.deleting the head node of the linkedlist
- * 
+ * 2.deleting the tail of the linkedlist
+ * 3.deleting the node at a given position
+ * 4.deleting a value
  */
 class Node{
     int data;
@@ -63,8 +65,8 @@ public class IteratingLinkedlist{
 
         iterating(head);//iterating through linkedlist
 
-        /*Node headdelete=deleteHead(head);//deleting the head of the Linkedlist
-        System.out.println(headdelete.data);*/
+        Node headdelete=deleteHead(head);//deleting the head of the Linkedlist
+        System.out.println(headdelete.data);
 
         Node tailDelete=deleteTail(head);//deleting tail of the linkedlist
         System.out.println(tailDelete.data);
