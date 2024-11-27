@@ -13,7 +13,7 @@ public class Solution{
         System.out.println(a);
 
         //using arrays
-        ArrayList<String> str= new Arraylist<String>(Arrays.asList('A','B','C'));
+        ArrayList<String> str= new ArrayList<String>(Arrays.asList("A","B","c"));
         System.out.println(str);
 
     }
