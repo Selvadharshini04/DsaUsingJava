@@ -11,5 +11,10 @@ public class Solution{
         a.add(1);
         a.add('S');
         System.out.println(a);
+
+        //using arrays
+        ArrayList<String> str= new Arraylist<String>(Arrays.asList('A','B','C'));
+        System.out.println(str);
+
     }
 }
