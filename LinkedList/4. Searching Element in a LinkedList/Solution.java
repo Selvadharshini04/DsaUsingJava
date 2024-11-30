@@ -52,16 +52,19 @@ class SinglyLL{
             temp=temp.next;
         }
     }
-    public boolean searchElement(int nodevalue){//Searchinf for the element
-        Node temp=head;
-        for(int i=0;i<size;i++){
-            if(temp.value==nodevalue){
-                System.out.println("Element is found at index:"+ i);
-                return true;
+    public boolean searchElement(int nodevalue){//Searching for the element
+         if(head!=null){   
+            Node temp=head;
+            for(int i=0;i<size;i++){
+                if(temp.value==nodevalue){
+                    System.out.println("Element is found at index:"+ i);
+                    return true;
+                }
+                temp=temp.next;
             }
-            temp=temp.next;
+            System.out.println("Node not found ");
+            return false;
         }
-        return false;
     }
 
 }
