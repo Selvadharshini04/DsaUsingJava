@@ -22,7 +22,7 @@ public class BinaryTrees{
            return newnode;
         }
     }
-    public static void preordertraversal(Node root){
+    public static void preordertraversal(Node root){ // root -> left -> right
         if(root==null){
             return;
         }
