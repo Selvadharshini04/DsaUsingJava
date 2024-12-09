@@ -27,9 +27,9 @@ public class BinaryTrees{
             return;
         }
         
-        preordertraversal(root.left);
+        inordertraversal(root.left);
         System.out.print(root.data+" ");
-        preordertraversal(root.right);
+        inordertraversal(root.right);
     }
     public static void main(String[] args) {
         int [] nodes={1,2,4,-1,-1,5,-1,-1,3,-1,6,-1};
