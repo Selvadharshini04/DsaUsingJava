@@ -10,7 +10,7 @@ public class Main
 	    for(int i=s2.length-1;i>=0;i--){
 	        System.out.print(s2[i]+" ");
 	    }
-     /-----------------------------Approach 2 using StringBuilder  function----------------------------------------------------------------/
+     	   /-----------------------------Approach 2 using StringBuilder  function----------------------------------------------------------------/
 	   /* int end=s1.length();
 	    System.out.println(end);
 	    for(int i=s1.length()-1;i>=0;i--){
